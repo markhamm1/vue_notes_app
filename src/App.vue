@@ -1,9 +1,10 @@
 <template>
   <div id="app">
     <toolbar />
-    <NoteContainer />
+    <note-container />
   </div>
-	</template>
+</template>
+
 <script>
 import Toolbar from "./components/Toolbar.vue";
 import NoteContainer from "./components/NoteContainer.vue";
